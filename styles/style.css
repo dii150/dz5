@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    max-width: 1440px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding-top: 27px;
+    padding-right: 235px;
+    padding-left: 235px;
+}
+header nav {
+    width: 600px;
+    margin: 0 auto;
+}
+#nav {
+    width: 800px;
+    padding-bottom: 27px;
+    border-bottom: #828282 1px solid;
+}
+
+header p {
+    display: inline;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #828282
+}
+header p:hover {
+    color: #070707;
+}
+main {
+}
+#hero {
+    margin: 0 auto;
+    width: 793px;
+    padding-left: 235px;
+    padding-right: 235px;
+    height: 415px;
+}
+#hero img {
+    width: 800px;
+    height: 320px;
+}
+#hero h1 {
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+#aboutMe {
+    height: 500px;
+    background-color: #F6F6F6;
+    margin: 0;
+}
+#about {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 100px;
+    text-align: center;
+}
+#about h1 {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+#about p {
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#skills {
+    height: 500px;
+}
+#divSkills {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 100px;
+    text-align: center;
+}
+#skills h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#skills p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#allPrograms {
+    display: block;
+}
+#allPrograms p {
+    color: #828282;
+    margin-top: 25px;
+    font-size: 14px;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#allPrograms svg {
+    height: 75px;
+    width: 75px;
+}
+#allPrograms img {
+    width: 100px;
+}
+.programs {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#portfolio {
+    background-color: #F6F6F6;
+    padding-bottom: 30px;
+}
+#pf {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 100px;
+    text-align: center;
+}
+#pf img {
+    width: 800px;
+}
+#pf h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#pf p {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-decoration: underline 1px;
+}
+#contact {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#contact h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#contact h4 {
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact button {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    color: white;
+
+    width: 180px;
+    height: 44px;
+
+    background: #070707;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+#contact svg {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+}
+#contact p {
+    color: #828282;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
