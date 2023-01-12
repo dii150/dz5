@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 0;
     max-width: 1440px;
     font-family: Arial, sans-serif;
 }
@@ -23,14 +23,18 @@ header nav {
     border-bottom: #828282 1px solid;
 }
 
-header p {
-    display: inline;
-    text-align: center;
-    margin-right: 30px;
-    margin-left: 30px;
-    color: #828282
+header ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
 }
-header p:hover {
+header a{
+    color: #828282;
+}
+header a:hover {
     color: #070707;
 }
 main {
@@ -135,11 +139,8 @@ main {
     text-decoration: underline 1px;
 }
 #contact {
-    padding-left: 235px;
-    padding-right: 235px;
-    padding-top: 100px;
     text-align: center;
-    padding-bottom: 100px;
+    padding: 100px 235px;
 }
 #contact h1 {
     margin-bottom: 20px;
@@ -169,14 +170,20 @@ main {
 
     margin-bottom: 30px;
 }
-#contact svg {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 60px;
+#contact li {
+    display: inline-flex;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#contact ul {
+    padding: 0;
 }
 #contact p {
     color: #828282;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+}
+#icons {
+    margin-bottom: 60px;
 }
